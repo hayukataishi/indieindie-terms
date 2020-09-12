@@ -22,12 +22,18 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <h1
             style={{
               marginTop: rhythm(1),
-              marginBottom: 0,
+              marginBottom: 20,
+              fontFamily: `Noto Sans JP, sans-serif`,
             }}
           >
             {post.frontmatter.title}
           </h1>
-          <p
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+          {/* <p
             style={{
               ...scale(-1 / 5),
               display: `block`,
@@ -35,7 +41,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             }}
           >
             {post.frontmatter.date}
-          </p>
+          </p> */}
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -43,12 +49,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>
+        {/* <footer>
           <Bio />
-        </footer>
+        </footer> */}
       </article>
 
-      <nav>
+      {/* <nav>
         <ul
           style={{
             display: `flex`,
@@ -73,7 +79,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             )}
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </Layout>
   )
 }

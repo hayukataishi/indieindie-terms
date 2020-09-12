@@ -14,6 +14,7 @@ const Layout = ({ location, title, children }) => {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
+          fontFamily: `Noto Sans JP, sans-serif`,
         }}
       >
         <Link
@@ -31,7 +32,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          fontFamily: `Noto Sans JP, sans-serif`,
           marginTop: 0,
         }}
       >
@@ -52,17 +53,17 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(36),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <header>{header}</header>
+      {/* <header>{header}</header> */}
       <main>{children}</main>
-      <footer>
+      {/* <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
