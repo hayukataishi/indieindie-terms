@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `indieindie 利用規約`,
+    title: `INDIE INDIE 利用規約`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
