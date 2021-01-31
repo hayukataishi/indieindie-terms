@@ -6,7 +6,7 @@ description: This is a custom description for SEO and Open Graph purposes, rathe
 
 |    |    |
 | ---- | ---- |
-|  販売事業者  |  [住所]<br>株式会社SUPER ULTRA THUNDER  |
+|  販売事業者  |  愛知県名古屋市中区正木4丁目6-6第13フクマルビル505<br>株式会社SUPER ULTRA THUNDER  |
 |  販売責任者  |  羽床　大志  |
 |  販売価格  |  購入手続の際に画面に表示されます。  |
 |  販売価格以外にお客様にご負担いただく金銭  |  商品の購入、ダウンロード等に必要となるインターネット接続料金、通信料等は、お客様のご負担となります。それぞれの料金は、お客様がご利用のインターネットプロバイダ、携帯電話会社等にお問い合わせください。  |
@@ -16,5 +16,5 @@ description: This is a custom description for SEO and Open Graph purposes, rathe
 |  キャンセル  |  商品の性質上、購入後のお客様のご都合によるキャンセルはお受けできません。  |
 |  動作環境  |  本アプリサービスが動作するiOS端末、Android端末。  |
 |  販売条件  |  個別の商品の販売画面に表示します。  |
-|  お問い合わせ先  |  http://●●<br>連絡先電話番号についても、問い合わせフォームでご請求いただければ、遅滞なく開示いたします。  |
+|  お問い合わせ先  |  [info@super-ultra-thunder.jp](mailto:info@super-ultra-thunder.jp)<br>連絡先電話番号についても、問い合わせフォームでご請求いただければ、遅滞なく開示いたします。  |
 
